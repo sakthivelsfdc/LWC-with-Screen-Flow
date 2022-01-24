@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PicklistFlow</fullName>
+    <types>
+        <members>GetRelatedProducts</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Product2.Control_Product__c</members>
+        <members>Product_Line_Item__c.Contact__c</members>
+        <members>Product_Line_Item__c.Master_Product_Line_Item__c</members>
+        <members>Product_Line_Item__c.Product_Code__c</members>
+        <members>Product_Line_Item__c.Product_Family__c</members>
+        <members>Product_Line_Item__c.Product_Name__c</members>
+        <members>Product_Line_Item__c.Product__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Product_Line_Item__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Demo_Flow</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Product_Line_Item__c-Product Line Item Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>relatedProductPickList</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Product_Line_Item__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Contact.Related_Product</members>
+        <name>WebLink</name>
+    </types>
+    <version>52.0</version>
+</Package>
